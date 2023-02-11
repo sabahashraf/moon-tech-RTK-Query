@@ -1,0 +1,50 @@
+
+/* RTK QUERY
+1.go to rtk query quick start
+2.amra create api korbo
+3.features-->api-->apiSlice.js
+4.import createApi from "@reduxjs/toolkit/query/react";
+5. create api die api create kore reducerpath e akta name dite hob
+6.fetchbasequery amader api fetch korbe
+7.ata fetcher hoshabe kaj korate axios use er dorkar ny
+8.endpoints er modhdhe builder concept use korbo
+9.get method use korar shomoy builder.query use korte hob
+10 for other method builder.mutation use korbo
+11.akhon store er shate connect korte hob
+12.store e middleware add korte hob jehetu amra asynchronous kaj kortei
+13.store js dekhte hob
+14.agula documentation dekhe bujhte hob
+15.now jei kajgula korlam ta use korbo kivab?
+automatic hook banae dibe oigula use korbo
+16.now export kora hook nie home e chole jabp
+17.now home e hook consume kore ctrl space die isloading...nie nibo
+18.now post nie kaj korbo..addProduct
+19.akhan theke j hook pabo ta dekhte aktu vinno..ata array return kore
+20.array er modhdhe 2 ta jinish return kore...1st ta holo amra jei functiontatk call kore post korbo ar name amra ja khushi ty dite pari(see addproduct.js)
+21.second parameter hishabe result return kore ja akta object amra chaile destructure isloading,is success...kore nite pari
+22.akhon postProduct call kore dilam
+23.akhon product add hochche
+24.reload korle home e data ashtece.akhon ata handle korbo
+25.ajonno useProductsQuery te duita parameter pathano jy..first parameter holo amra id pathalam then apislice e e j parameter pass korlam...second parameter e ctrl space press korle refetch onmount true korle add product korar por home e geleo data dekhte pabo(amra jokhon ak page theke onno page e jy tokhon mount hoy page)
+26.atak redux er optimistic data update bole
+27.akhon remove product banalam
+28.akhon click korle remove hochche na reload marle remove hochche.now to handle
+29.ager case e akta page theke onno page e jachchilam akhon ta korteci na..ajonno rtk query kichu tag die dei..amra tagtypes banate pari suppose Products tag banalam..kintu ai productgula provide kore k?getProducts,tahole bujha gelo delete korar por refetch korte parle kaj hoye jabe..ajonno invalidate tag name e jinish ase
+30.akhon remove korar por product invalidate kore dile abar refetch hobe ader provider die thus problems can be solved
+31.akhon post er khtreo ai kajta kore felte pari ager refetch mount fele die
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
